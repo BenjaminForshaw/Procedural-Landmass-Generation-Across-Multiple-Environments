@@ -1,5 +1,12 @@
-# Procedural-Landmass-Generation
+# Procedural-Landmass-Generation Across Multiple Environments
 
-Source code for the tutorial series found here: [Series Playlist](https://www.youtube.com/playlist?list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3)
+This project is built on Sebastian Lague's "Procedural-Landmass-Generation" [(Repository)](https://github.com/SebLague/Procedural-Landmass-Generation)
 
-Source code starts at episode 02, since episode 01 was introductory and contained no programming.
+I have altered the project to allow the Perlin Noise to generate various 'Regions' which can blend with and contrast one another. 
+
+The 'detail' of regions increases as the player approaches them, and decreases as they move away. Regions are also hidden when outside a render distance, saving on resources.
+
+The amount of regions is scalable, allowing for increased complexity if further developed. 
+
+
+![](prgShowcase.gif)
